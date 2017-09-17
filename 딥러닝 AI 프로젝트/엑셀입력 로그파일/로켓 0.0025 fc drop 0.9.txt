@@ -1,0 +1,207 @@
+
+Epoch 1
+-------
+Training...
+100%|??????????| 1995/2000 [00:37<00:00, 55.11it/s]100%|??????????| 2000/2000 [00:37<00:00, 53.91it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]123 training episodes played.
+Results: mean: -156.8¡¾165.1, min: -360.0, max: 66.0,
+
+Testing...
+ 99%|??????????| 99/100 [00:17<00:00,  5.70it/s]Results: mean: -224.6¡¾140.2, min: -360.0 max: 66.0
+Saving the network weigths to: ../../tmp/rocketFC2.ckpt
+100%|??????????| 100/100 [00:17<00:00,  5.56it/s]
+Total elapsed time: 0.92 minutes
+
+Epoch 2
+-------
+Training...
+100%|??????????| 1992/2000 [00:35<00:00, 55.66it/s]100%|??????????| 1998/2000 [00:35<00:00, 56.25it/s]100%|??????????| 2000/2000 [00:35<00:00, 56.17it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]124 training episodes played.
+Results: mean: -150.7¡¾165.9, min: -360.0, max: 66.0,
+
+Testing...
+ 97%|??????????| 97/100 [00:16<00:00,  5.28it/s]100%|??????????| 100/100 [00:17<00:00,  6.67it/s]
+Results: mean: -205.8¡¾153.9, min: -370.0 max: 66.0
+Saving the network weigths to: ../../tmp/rocketFC2.ckpt
+Total elapsed time: 1.81 minutes
+
+Epoch 3
+-------
+Training...
+100%|??????????| 1996/2000 [00:38<00:00, 50.77it/s]134 training episodes played.
+Results: mean: -128.4¡¾158.1, min: -360.0, max: 66.0,
+
+Testing...
+100%|??????????| 2000/2000 [00:38<00:00, 52.29it/s]
+ 99%|??????????| 99/100 [00:19<00:00,  5.14it/s]Results: mean: -244.7¡¾128.0, min: -300.0 max: 66.0
+Saving the network weigths to: ../../tmp/rocketFC2.ckpt
+100%|??????????| 100/100 [00:20<00:00,  4.86it/s]
+Total elapsed time: 2.79 minutes
+
+Epoch 4
+-------
+Training...
+ 99%|??????????| 1988/2000 [00:37<00:00, 52.91it/s]100%|??????????| 1994/2000 [00:37<00:00, 52.55it/s]165 training episodes played.
+Results: mean: -74.4¡¾141.8, min: -365.0, max: 66.0,
+
+Testing...
+100%|??????????| 2000/2000 [00:37<00:00, 53.27it/s]
+ 97%|??????????| 97/100 [00:06<00:00, 13.65it/s]100%|??????????| 100/100 [00:06<00:00, 14.31it/s]
+Results: mean: 9.1¡¾95.4, min: -300.0 max: 66.0
+Saving the network weigths to: ../../tmp/rocketFC2.ckpt
+Total elapsed time: 3.54 minutes
+
+Epoch 5
+-------
+Training...
+100%|??????????| 1998/2000 [00:38<00:00, 53.73it/s]100%|??????????| 2000/2000 [00:38<00:00, 51.90it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]208 training episodes played.
+Results: mean: -27.3¡¾103.3, min: -360.0, max: 66.0,
+
+Testing...
+ 98%|??????????| 98/100 [00:18<00:00,  4.82it/s]100%|??????????| 100/100 [00:18<00:00,  5.37it/s]
+Results: mean: -216.0¡¾139.4, min: -315.0 max: 66.0
+Saving the network weigths to: ../../tmp/rocketFC2.ckpt
+Total elapsed time: 4.50 minutes
+
+Epoch 6
+-------
+Training...
+100%|??????????| 2000/2000 [00:38<00:00, 51.67it/s]
+216 training episodes played.
+Results: mean: -18.3¡¾80.0, min: -360.0, max: 66.0,
+
+Testing...
+100%|??????????| 100/100 [00:21<00:00,  4.29it/s]
+Results: mean: -274.4¡¾88.3, min: -300.0 max: 54.0
+Saving the network weigths to: ../../tmp/rocketFC2.ckpt
+Total elapsed time: 5.51 minutes
+
+Epoch 7
+-------
+Training...
+100%|??????????| 1990/2000 [00:39<00:00, 49.66it/s]100%|??????????| 1996/2000 [00:39<00:00, 51.03it/s]230 training episodes played.
+Results: mean: -7.5¡¾65.8, min: -330.0, max: 66.0,
+
+Testing...
+100%|??????????| 2000/2000 [00:39<00:00, 50.75it/s]
+100%|??????????| 100/100 [00:22<00:00,  4.38it/s]
+Results: mean: -297.9¡¾21.6, min: -355.0 max: -102.0
+Saving the network weigths to: ../../tmp/rocketFC2.ckpt
+Total elapsed time: 6.55 minutes
+
+Epoch 8
+-------
+Training...
+100%|??????????| 1999/2000 [00:39<00:00, 49.29it/s]100%|??????????| 2000/2000 [00:39<00:00, 50.14it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]238 training episodes played.
+Results: mean: -3.7¡¾71.3, min: -360.0, max: 66.0,
+
+Testing...
+100%|??????????| 100/100 [00:08<00:00, 11.79it/s]
+Results: mean: -8.9¡¾55.9, min: -350.0 max: 66.0
+Saving the network weigths to: ../../tmp/rocketFC2.ckpt
+Total elapsed time: 7.37 minutes
+
+Epoch 9
+-------
+Training...
+100%|??????????| 1995/2000 [00:40<00:00, 49.87it/s]100%|??????????| 2000/2000 [00:40<00:00, 49.47it/s]
+258 training episodes played.
+Results: mean: 6.1¡¾47.3, min: -226.0, max: 66.0,
+
+Testing...
+ 99%|??????????| 99/100 [00:07<00:00, 13.30it/s]Results: mean: 9.7¡¾36.3, min: -300.0 max: 66.0
+100%|??????????| 100/100 [00:07<00:00, 13.91it/s]
+Saving the network weigths to: ../../tmp/rocketFC2.ckpt
+Total elapsed time: 8.17 minutes
+
+Epoch 10
+-------
+Training...
+100%|??????????| 1994/2000 [00:41<00:00, 46.06it/s]100%|??????????| 1999/2000 [00:41<00:00, 43.60it/s]100%|??????????| 2000/2000 [00:41<00:00, 47.68it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]286 training episodes played.
+Results: mean: 16.4¡¾39.3, min: -180.0, max: 66.0,
+
+Testing...
+ 99%|??????????| 99/100 [00:08<00:00, 13.41it/s]Results: mean: -7.0¡¾91.0, min: -365.0 max: 66.0
+Saving the network weigths to: ../../tmp/rocketFC2.ckpt
+100%|??????????| 100/100 [00:08<00:00, 12.14it/s]
+Total elapsed time: 9.01 minutes
+
+Epoch 11
+-------
+Training...
+100%|??????????| 1999/2000 [00:41<00:00, 48.22it/s]100%|??????????| 2000/2000 [00:41<00:00, 47.84it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]298 training episodes played.
+Results: mean: 19.3¡¾40.8, min: -355.0, max: 66.0,
+
+Testing...
+ 97%|??????????| 97/100 [00:06<00:00, 14.21it/s] 99%|??????????| 99/100 [00:06<00:00, 14.32it/s]Results: mean: 18.4¡¾19.6, min: -44.0 max: 66.0
+Saving the network weigths to: ../../tmp/rocketFC2.ckpt
+100%|??????????| 100/100 [00:06<00:00, 14.46it/s]
+Total elapsed time: 9.83 minutes
+
+Epoch 12
+-------
+Training...
+100%|??????????| 1998/2000 [00:43<00:00, 47.32it/s]100%|??????????| 2000/2000 [00:43<00:00, 46.07it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]339 training episodes played.
+Results: mean: 30.0¡¾36.6, min: -235.0, max: 66.0,
+
+Testing...
+ 99%|??????????| 99/100 [00:06<00:00, 15.11it/s]Results: mean: 19.6¡¾14.4, min: -36.0 max: 66.0
+Saving the network weigths to: ../../tmp/rocketFC2.ckpt
+100%|??????????| 100/100 [00:06<00:00, 14.41it/s]
+Total elapsed time: 10.67 minutes
+
+Epoch 13
+-------
+Training...
+100%|??????????| 1997/2000 [00:42<00:00, 46.36it/s]100%|??????????| 2000/2000 [00:42<00:00, 46.84it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]336 training episodes played.
+Results: mean: 29.6¡¾30.9, min: -113.0, max: 66.0,
+
+Testing...
+ 99%|??????????| 99/100 [00:07<00:00, 13.12it/s]100%|??????????| 100/100 [00:07<00:00, 13.32it/s]
+Results: mean: 11.6¡¾35.4, min: -300.0 max: 66.0
+Saving the network weigths to: ../../tmp/rocketFC2.ckpt
+Total elapsed time: 11.52 minutes
+
+Epoch 14
+-------
+Training...
+100%|??????????| 1999/2000 [00:42<00:00, 46.33it/s]100%|??????????| 2000/2000 [00:42<00:00, 46.84it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]360 training episodes played.
+Results: mean: 34.1¡¾33.7, min: -231.0, max: 66.0,
+
+Testing...
+ 99%|??????????| 99/100 [00:04<00:00, 23.79it/s]100%|??????????| 100/100 [00:04<00:00, 23.07it/s]
+Results: mean: 53.3¡¾19.0, min: -19.0 max: 66.0
+Saving the network weigths to: ../../tmp/rocketFC2.ckpt
+Total elapsed time: 12.31 minutes
+
+Epoch 15
+-------
+Training...
+100%|??????????| 1990/2000 [00:42<00:00, 46.90it/s]100%|??????????| 1995/2000 [00:42<00:00, 47.11it/s]371 training episodes played.
+Results: mean: 36.1¡¾29.0, min: -62.0, max: 66.0,
+
+Testing...
+100%|??????????| 2000/2000 [00:42<00:00, 46.86it/s]
+ 98%|??????????| 98/100 [00:06<00:00, 14.61it/s]100%|??????????| 100/100 [00:07<00:00, 14.23it/s]
+Results: mean: 19.4¡¾18.4, min: -69.0 max: 54.0
+Saving the network weigths to: ../../tmp/rocketFC2.ckpt
+Total elapsed time: 13.14 minutes
+======================================
+Training finished. It's time to watch!
+Total score:  19.0
+Total score:  16.0
+Total score:  -32.0
+Total score:  77.0
+Total score:  40.0
+Total score:  16.0
+Total score:  36.0
+Total score:  16.0
+Total score:  53.0
+Total score:  16.0

@@ -1,0 +1,206 @@
+Epoch 1
+-------
+Training...
+100%|??????????| 1999/2000 [00:37<00:00, 53.01it/s]100%|??????????| 2000/2000 [00:37<00:00, 54.01it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]38 training episodes played.
+Results: mean: 522.1¡¾326.0, min: 284.0, max: 2100.0,
+
+Testing...
+ 99%|??????????| 99/100 [00:42<00:00,  2.44it/s]Results: mean: 468.3¡¾161.7, min: 284.0 max: 1244.0
+Saving the network weigths to: ../../tmp/healthIn64.ckpt
+100%|??????????| 100/100 [00:43<00:00,  2.37it/s]
+Total elapsed time: 1.35 minutes
+
+Epoch 2
+-------
+Training...
+100%|??????????| 1992/2000 [00:36<00:00, 57.03it/s]100%|??????????| 1998/2000 [00:36<00:00, 57.39it/s]100%|??????????| 2000/2000 [00:36<00:00, 54.87it/s]
+40 training episodes played.
+  0%|          | 0/100 [00:00<?, ?it/s]Results: mean: 492.0¡¾213.3, min: 284.0, max: 1244.0,
+
+Testing...
+ 99%|??????????| 99/100 [00:27<00:00,  3.58it/s]Results: mean: 284.0¡¾0.0, min: 284.0 max: 284.0
+Saving the network weigths to: ../../tmp/healthIn64.ckpt
+100%|??????????| 100/100 [00:27<00:00,  3.59it/s]
+Total elapsed time: 2.42 minutes
+
+Epoch 3
+-------
+Training...
+100%|??????????| 1992/2000 [00:35<00:00, 56.69it/s]100%|??????????| 1998/2000 [00:35<00:00, 56.18it/s]100%|??????????| 2000/2000 [00:35<00:00, 55.60it/s]
+38 training episodes played.
+Results: mean: 525.7¡¾264.7, min: 284.0, max: 1276.0,
+
+Testing...
+ 99%|??????????| 99/100 [00:27<00:00,  3.65it/s]Results: mean: 284.0¡¾0.0, min: 284.0 max: 284.0
+Saving the network weigths to: ../../tmp/healthIn64.ckpt
+100%|??????????| 100/100 [00:27<00:00,  3.64it/s]
+Total elapsed time: 3.49 minutes
+
+Epoch 4
+-------
+Training...
+100%|??????????| 1992/2000 [00:36<00:00, 53.87it/s]100%|??????????| 1998/2000 [00:36<00:00, 53.93it/s]100%|??????????| 2000/2000 [00:36<00:00, 54.93it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]35 training episodes played.
+Results: mean: 573.8¡¾264.0, min: 284.0, max: 1244.0,
+
+Testing...
+100%|??????????| 100/100 [00:28<00:00,  3.55it/s]
+Results: mean: 284.0¡¾0.0, min: 284.0 max: 284.0
+Saving the network weigths to: ../../tmp/healthIn64.ckpt
+Total elapsed time: 4.57 minutes
+
+Epoch 5
+-------
+Training...
+100%|??????????| 1992/2000 [00:37<00:00, 52.71it/s]100%|??????????| 1998/2000 [00:37<00:00, 53.53it/s]100%|??????????| 2000/2000 [00:37<00:00, 53.28it/s]
+35 training episodes played.
+  0%|          | 0/100 [00:00<?, ?it/s]Results: mean: 569.3¡¾287.7, min: 284.0, max: 1500.0,
+
+Testing...
+100%|??????????| 100/100 [00:29<00:00,  3.44it/s]
+Results: mean: 284.0¡¾0.0, min: 284.0 max: 284.0
+Saving the network weigths to: ../../tmp/healthIn64.ckpt
+Total elapsed time: 5.69 minutes
+
+Epoch 6
+-------
+Training...
+ 99%|??????????| 1988/2000 [00:38<00:00, 52.68it/s]100%|??????????| 1994/2000 [00:38<00:00, 52.94it/s]43 training episodes played.
+Results: mean: 448.5¡¾178.6, min: 284.0, max: 1084.0,
+
+Testing...
+100%|??????????| 2000/2000 [00:38<00:00, 52.02it/s]
+ 99%|??????????| 99/100 [00:28<00:00,  3.42it/s]Results: mean: 284.0¡¾0.0, min: 284.0 max: 284.0
+Saving the network weigths to: ../../tmp/healthIn64.ckpt
+100%|??????????| 100/100 [00:29<00:00,  3.42it/s]
+Total elapsed time: 6.83 minutes
+
+Epoch 7
+-------
+Training...
+100%|??????????| 1994/2000 [00:38<00:00, 50.91it/s]47 training episodes played.
+Results: mean: 399.1¡¾135.2, min: 284.0, max: 988.0,
+
+Testing...
+100%|??????????| 2000/2000 [00:39<00:00, 50.63it/s]
+100%|??????????| 100/100 [00:29<00:00,  3.44it/s]
+Results: mean: 284.0¡¾0.0, min: 284.0 max: 284.0
+Saving the network weigths to: ../../tmp/healthIn64.ckpt
+Total elapsed time: 7.97 minutes
+
+Epoch 8
+-------
+Training...
+100%|??????????| 1997/2000 [00:39<00:00, 51.19it/s]100%|??????????| 2000/2000 [00:39<00:00, 50.72it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]48 training episodes played.
+Results: mean: 395.3¡¾113.3, min: 284.0, max: 892.0,
+
+Testing...
+100%|??????????| 100/100 [00:29<00:00,  3.44it/s]
+Results: mean: 284.0¡¾0.0, min: 284.0 max: 284.0
+Saving the network weigths to: ../../tmp/healthIn64.ckpt
+Total elapsed time: 9.12 minutes
+
+Epoch 9
+-------
+Training...
+100%|??????????| 1998/2000 [00:40<00:00, 50.18it/s]100%|??????????| 2000/2000 [00:40<00:00, 49.39it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]52 training episodes played.
+Results: mean: 351.7¡¾71.5, min: 284.0, max: 540.0,
+
+Testing...
+100%|??????????| 100/100 [00:29<00:00,  3.44it/s]
+Results: mean: 284.0¡¾0.0, min: 284.0 max: 284.0
+Saving the network weigths to: ../../tmp/healthIn64.ckpt
+Total elapsed time: 10.29 minutes
+
+Epoch 10
+-------
+Training...
+100%|??????????| 1999/2000 [00:40<00:00, 49.51it/s]100%|??????????| 2000/2000 [00:40<00:00, 49.41it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]55 training episodes played.
+Results: mean: 331.7¡¾61.9, min: 284.0, max: 476.0,
+
+Testing...
+ 99%|??????????| 99/100 [00:28<00:00,  3.44it/s]Results: mean: 284.0¡¾0.0, min: 284.0 max: 284.0
+Saving the network weigths to: ../../tmp/healthIn64.ckpt
+100%|??????????| 100/100 [00:29<00:00,  3.44it/s]
+Total elapsed time: 11.45 minutes
+
+Epoch 11
+-------
+Training...
+100%|??????????| 2000/2000 [00:40<00:00, 49.79it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]58 training episodes played.
+Results: mean: 311.6¡¾54.9, min: 284.0, max: 572.0,
+
+Testing...
+100%|??????????| 100/100 [00:29<00:00,  3.42it/s]
+Results: mean: 284.0¡¾0.0, min: 284.0 max: 284.0
+Saving the network weigths to: ../../tmp/healthIn64.ckpt
+Total elapsed time: 12.62 minutes
+
+Epoch 12
+-------
+Training...
+100%|??????????| 1998/2000 [00:40<00:00, 49.41it/s]57 training episodes played.
+Results: mean: 316.0¡¾51.2, min: 284.0, max: 476.0,
+
+Testing...
+100%|??????????| 2000/2000 [00:40<00:00, 49.47it/s]
+100%|??????????| 100/100 [00:29<00:00,  3.43it/s]
+Results: mean: 284.0¡¾0.0, min: 284.0 max: 284.0
+Saving the network weigths to: ../../tmp/healthIn64.ckpt
+Total elapsed time: 13.79 minutes
+
+Epoch 13
+-------
+Training...
+100%|??????????| 1999/2000 [00:40<00:00, 47.41it/s]100%|??????????| 2000/2000 [00:40<00:00, 49.09it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]59 training episodes played.
+Results: mean: 304.6¡¾52.9, min: 284.0, max: 476.0,
+
+Testing...
+100%|??????????| 100/100 [00:29<00:00,  3.45it/s]
+Results: mean: 284.0¡¾0.0, min: 284.0 max: 284.0
+Saving the network weigths to: ../../tmp/healthIn64.ckpt
+Total elapsed time: 14.96 minutes
+
+Epoch 14
+-------
+Training...
+100%|??????????| 1990/2000 [00:40<00:00, 49.52it/s]100%|??????????| 1995/2000 [00:40<00:00, 49.66it/s]57 training episodes played.
+Results: mean: 315.4¡¾61.9, min: 284.0, max: 572.0,
+
+Testing...
+100%|??????????| 2000/2000 [00:40<00:00, 49.61it/s]
+100%|??????????| 100/100 [00:29<00:00,  3.43it/s]
+Results: mean: 284.0¡¾0.0, min: 284.0 max: 284.0
+Saving the network weigths to: ../../tmp/healthIn64.ckpt
+Total elapsed time: 16.12 minutes
+
+Epoch 15
+-------
+Training...
+100%|??????????| 2000/2000 [00:40<00:00, 50.43it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]56 training episodes played.
+Results: mean: 322.3¡¾58.8, min: 284.0, max: 508.0,
+
+Testing...
+100%|??????????| 100/100 [00:27<00:00,  3.62it/s]
+Results: mean: 284.0¡¾0.0, min: 284.0 max: 284.0
+Saving the network weigths to: ../../tmp/healthIn64.ckpt
+Total elapsed time: 17.26 minutes
+======================================
+Training finished. It's time to watch!
+Total score:  283.0
+Total score:  283.0
+Total score:  283.0
+Total score:  283.0
+Total score:  283.0
+Total score:  283.0
+Total score:  283.0
+Total score:  283.0
+Total score:  283.0
+Total score:  283.0

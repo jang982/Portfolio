@@ -1,0 +1,208 @@
+0.00025
+
+Epoch 1
+-------
+Training...
+100%|??????????| 1990/2000 [00:36<00:00, 55.69it/s]100%|??????????| 1996/2000 [00:36<00:00, 56.12it/s]100%|??????????| 2000/2000 [00:37<00:00, 54.03it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]163 training episodes played.
+Results: mean: -99.7¡¾190.0, min: -380.0, max: 95.0,
+
+Testing...
+ 97%|??????????| 97/100 [00:08<00:00,  6.42it/s]Results: mean: -85.4¡¾238.9, min: -410.0 max: 95.0
+Saving the network weigths to: ../../tmp/simpler2.ckpt
+100%|??????????| 100/100 [00:08<00:00,  8.33it/s]
+Total elapsed time: 0.77 minutes
+
+Epoch 2
+-------
+Training...
+100%|??????????| 1994/2000 [00:37<00:00, 52.19it/s]100%|??????????| 2000/2000 [00:37<00:00, 53.01it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]168 training episodes played.
+Results: mean: -91.2¡¾190.0, min: -385.0, max: 95.0,
+
+Testing...
+ 98%|??????????| 98/100 [00:09<00:00,  6.72it/s]Results: mean: -100.1¡¾243.1, min: -410.0 max: 95.0
+Saving the network weigths to: ../../tmp/simpler2.ckpt
+100%|??????????| 100/100 [00:10<00:00,  7.08it/s]
+Total elapsed time: 1.57 minutes
+
+Epoch 3
+-------
+Training...
+100%|??????????| 1990/2000 [00:37<00:00, 53.14it/s]100%|??????????| 1996/2000 [00:37<00:00, 52.99it/s]100%|??????????| 2000/2000 [00:37<00:00, 52.75it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]237 training episodes played.
+Results: mean: -24.6¡¾154.2, min: -385.0, max: 95.0,
+
+Testing...
+ 98%|??????????| 98/100 [00:05<00:00, 14.41it/s]Results: mean: 7.0¡¾166.5, min: -410.0 max: 95.0
+Saving the network weigths to: ../../tmp/simpler2.ckpt
+100%|??????????| 100/100 [00:05<00:00, 17.24it/s]
+Total elapsed time: 2.31 minutes
+
+Epoch 4
+-------
+Training...
+100%|??????????| 1995/2000 [00:40<00:00, 50.19it/s]244 training episodes played.
+Results: mean: -16.9¡¾140.3, min: -380.0, max: 95.0,
+
+Testing...
+100%|??????????| 2000/2000 [00:40<00:00, 49.64it/s]
+ 97%|??????????| 97/100 [00:03<00:00, 26.40it/s]Results: mean: 64.9¡¾51.5, min: -171.0 max: 95.0
+Saving the network weigths to: ../../tmp/simpler2.ckpt
+100%|??????????| 100/100 [00:03<00:00, 28.44it/s]
+Total elapsed time: 3.05 minutes
+
+Epoch 5
+-------
+Training...
+100%|??????????| 1997/2000 [00:40<00:00, 49.37it/s]100%|??????????| 2000/2000 [00:40<00:00, 49.15it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]308 training episodes played.
+Results: mean: 13.8¡¾107.8, min: -375.0, max: 95.0,
+
+Testing...
+ 94%|??????????| 94/100 [00:02<00:00, 32.67it/s]Results: mean: 72.6¡¾60.2, min: -410.0 max: 95.0
+Saving the network weigths to: ../../tmp/simpler2.ckpt
+100%|??????????| 100/100 [00:02<00:00, 37.62it/s]
+Total elapsed time: 3.78 minutes
+
+Epoch 6
+-------
+Training...
+100%|??????????| 1999/2000 [00:39<00:00, 50.63it/s]457 training episodes played.
+100%|??????????| 2000/2000 [00:39<00:00, 50.86it/s]
+Results: mean: 45.5¡¾67.6, min: -375.0, max: 95.0,
+
+  0%|          | 0/100 [00:00<?, ?it/s]Testing...
+ 92%|??????????| 92/100 [00:01<00:00, 46.06it/s] 97%|??????????| 97/100 [00:02<00:00, 45.75it/s]Results: mean: 82.5¡¾18.5, min: 26.0 max: 95.0
+Saving the network weigths to: ../../tmp/simpler2.ckpt
+100%|??????????| 100/100 [00:02<00:00, 47.44it/s]
+Total elapsed time: 4.47 minutes
+
+Epoch 7
+-------
+Training...
+100%|??????????| 1993/2000 [00:39<00:00, 49.25it/s]100%|??????????| 1998/2000 [00:39<00:00, 48.75it/s]100%|??????????| 2000/2000 [00:39<00:00, 50.33it/s]
+574 training episodes played.
+  0%|          | 0/100 [00:00<?, ?it/s]Results: mean: 58.6¡¾56.0, min: -345.0, max: 95.0,
+
+Testing...
+100%|??????????| 100/100 [00:02<00:00, 41.58it/s]
+Results: mean: 79.8¡¾25.5, min: -76.0 max: 95.0
+Saving the network weigths to: ../../tmp/simpler2.ckpt
+Total elapsed time: 5.18 minutes
+
+Epoch 8
+-------
+Training...
+100%|??????????| 1994/2000 [00:41<00:00, 39.26it/s]100%|??????????| 1998/2000 [00:41<00:00, 38.67it/s]100%|??????????| 2000/2000 [00:42<00:00, 47.60it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]734 training episodes played.
+Results: mean: 69.4¡¾41.4, min: -217.0, max: 95.0,
+
+Testing...
+ 94%|??????????| 94/100 [00:02<00:00, 40.00it/s] 99%|??????????| 99/100 [00:02<00:00, 41.70it/s]100%|??????????| 100/100 [00:02<00:00, 35.98it/s]
+Results: mean: 80.1¡¾21.0, min: -12.0 max: 95.0
+Saving the network weigths to: ../../tmp/simpler2.ckpt
+Total elapsed time: 5.93 minutes
+
+Epoch 9
+-------
+Training...
+100%|??????????| 1997/2000 [00:43<00:00, 48.47it/s]789 training episodes played.
+Results: mean: 72.1¡¾36.9, min: -335.0, max: 95.0,
+
+Testing...
+100%|??????????| 2000/2000 [00:43<00:00, 45.46it/s]
+ 99%|??????????| 99/100 [00:02<00:00, 46.24it/s]100%|??????????| 100/100 [00:02<00:00, 45.62it/s]
+Results: mean: 81.2¡¾20.8, min: -12.0 max: 95.0
+Saving the network weigths to: ../../tmp/simpler2.ckpt
+Total elapsed time: 6.71 minutes
+
+Epoch 10
+-------
+Training...
+100%|??????????| 1991/2000 [00:41<00:00, 47.08it/s]100%|??????????| 1996/2000 [00:41<00:00, 47.24it/s]915 training episodes played.
+Results: mean: 77.4¡¾24.6, min: -69.0, max: 95.0,
+
+Testing...
+100%|??????????| 2000/2000 [00:41<00:00, 47.90it/s]
+ 91%|????????? | 91/100 [00:02<00:00, 31.58it/s] 98%|??????????| 98/100 [00:02<00:00, 37.38it/s]100%|??????????| 100/100 [00:02<00:00, 43.95it/s]
+Results: mean: 79.5¡¾35.6, min: -209.0 max: 95.0
+Saving the network weigths to: ../../tmp/simpler2.ckpt
+Total elapsed time: 7.45 minutes
+
+Epoch 11
+-------
+Training...
+100%|??????????| 1991/2000 [00:41<00:00, 48.27it/s]100%|??????????| 1996/2000 [00:41<00:00, 47.93it/s]100%|??????????| 2000/2000 [00:41<00:00, 48.14it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]909 training episodes played.
+Results: mean: 76.6¡¾37.9, min: -410.0, max: 95.0,
+
+Testing...
+100%|??????????| 100/100 [00:02<00:00, 49.92it/s]
+Results: mean: 84.5¡¾16.6, min: 0.0 max: 95.0
+Saving the network weigths to: ../../tmp/simpler2.ckpt
+Total elapsed time: 8.18 minutes
+
+Epoch 12
+-------
+Training...
+100%|??????????| 2000/2000 [00:41<00:00, 49.94it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]992 training episodes played.
+Results: mean: 79.9¡¾28.3, min: -360.0, max: 95.0,
+
+Testing...
+ 89%|????????? | 89/100 [00:01<00:00, 48.85it/s] 96%|??????????| 96/100 [00:01<00:00, 52.51it/s]Results: mean: 84.2¡¾17.9, min: 0.0 max: 95.0
+Saving the network weigths to: ../../tmp/simpler2.ckpt
+100%|??????????| 100/100 [00:02<00:00, 49.80it/s]
+Total elapsed time: 8.91 minutes
+
+Epoch 13
+-------
+Training...
+100%|??????????| 1992/2000 [00:40<00:00, 49.39it/s]100%|??????????| 1997/2000 [00:41<00:00, 48.42it/s]965 training episodes played.
+Results: mean: 79.6¡¾28.7, min: -380.0, max: 95.0,
+
+Testing...
+100%|??????????| 2000/2000 [00:41<00:00, 48.59it/s]
+ 96%|??????????| 96/100 [00:02<00:00, 37.76it/s]100%|??????????| 100/100 [00:02<00:00, 40.81it/s]
+Results: mean: 77.9¡¾25.4, min: -13.0 max: 95.0
+Saving the network weigths to: ../../tmp/simpler2.ckpt
+Total elapsed time: 9.64 minutes
+
+Epoch 14
+-------
+Training...
+100%|??????????| 1994/2000 [00:41<00:00, 46.83it/s]100%|??????????| 1999/2000 [00:41<00:00, 46.80it/s]100%|??????????| 2000/2000 [00:41<00:00, 47.71it/s]
+  0%|          | 0/100 [00:00<?, ?it/s]950 training episodes played.
+Results: mean: 79.1¡¾26.6, min: -350.0, max: 95.0,
+
+Testing...
+100%|??????????| 100/100 [00:02<00:00, 49.95it/s]
+Results: mean: 84.1¡¾20.3, min: -57.0 max: 95.0
+Saving the network weigths to: ../../tmp/simpler2.ckpt
+Total elapsed time: 10.38 minutes
+
+Epoch 15
+-------
+Training...
+100%|??????????| 1997/2000 [00:41<00:00, 47.12it/s]944 training episodes played.
+Results: mean: 78.9¡¾27.9, min: -320.0, max: 95.0,
+
+Testing...
+100%|??????????| 2000/2000 [00:41<00:00, 47.95it/s]
+ 97%|??????????| 97/100 [00:02<00:00, 46.31it/s]100%|??????????| 100/100 [00:02<00:00, 45.56it/s]
+Results: mean: 83.2¡¾16.0, min: 14.0 max: 95.0
+Saving the network weigths to: ../../tmp/simpler2.ckpt
+Total elapsed time: 11.12 minutes
+======================================
+Training finished. It's time to watch!
+Total score:  94.0
+Total score:  94.0
+Total score:  94.0
+Total score:  94.0
+Total score:  70.0
+Total score:  94.0
+Total score:  94.0
+Total score:  70.0
+Total score:  70.0
+Total score:  58.0
