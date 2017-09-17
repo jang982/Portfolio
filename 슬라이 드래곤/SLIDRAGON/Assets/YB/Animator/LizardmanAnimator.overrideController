@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: LizardmanAnimator
+  m_Controller: {fileID: 9100000, guid: b2df726d32e5e2e458f490e373c66c10, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 2146e2bfc188f804ca2b5e047eb65856, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c0b9dbd14e76f9648a66a45884346a72, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7927898c19bf13d47aa35a47f1488be6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1db2e450812ccc4489f5457097a3f9bc, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: de25050556b21f449a4a9aa258615bce, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: de25050556b21f449a4a9aa258615bce, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 79a1c3eac23142f4a8e0d8dc0555ed8d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 79a1c3eac23142f4a8e0d8dc0555ed8d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f51b1f8f14d6d7245ae96a0d45993df1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f51b1f8f14d6d7245ae96a0d45993df1, type: 2}
