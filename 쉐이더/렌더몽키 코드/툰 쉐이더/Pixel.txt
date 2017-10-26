@@ -1,0 +1,17 @@
+float3 gSurfaceColor;
+
+struct PS_INPUT
+{
+   float3 mDiffuse:TEXCOORD1;
+};
+
+float4 ps_main(PS_INPUT Input):COLOR
+{
+   float3 diffuse=saturate(Input.mDiffuse);
+   
+   
+   //diffuse* ÅæÀÇ°¹¼ö / ¹à±â
+   diffuse=ceil(diffuse*5)/5.0f;
+   
+   return float4(gSurfaceColor*diffuse.xyz,1);
+}
