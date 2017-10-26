@@ -1,0 +1,4 @@
+﻿  ShaderFramework.cpp
+ShaderFramework.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/SAFESEH' 사양으로 인해 무시됩니다.
+  BasicFramework.vcxproj -> E:\porfol\portfolio\쉐이더\텍스쳐맵핑\Debug\BasicFramework.exe
+  BasicFramework.vcxproj -> E:\porfol\portfolio\쉐이더\텍스쳐맵핑\Debug\BasicFramework.pdb (Full PDB)
