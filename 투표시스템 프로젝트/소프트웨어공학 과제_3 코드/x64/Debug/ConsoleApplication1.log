@@ -1,4 +1,5 @@
 ﻿  WithdrwalUI.cpp
+e:\porfol\portfolio\투표시스템 프로젝트\소프트웨어공학 과제_3 코드\withdrwalui.cpp : fatal error C1041: 프로그램 데이터베이스 'E:\porfol\portfolio\투표시스템 프로젝트\소프트웨어공학 과제_3 코드\x64\Debug\vc140.idb'을(를) 열 수 없습니다. 여러 CL.EXE에서 동일한 .PDB 파일에 쓰는 경우 /FS를 사용하십시오.
   Withdrwal.cpp
   VoteForUI.cpp
   VoteFor.cpp
@@ -38,5 +39,3 @@
   CreateGroup.cpp
   ControlAndCollection.cpp
   코드를 생성하고 있습니다...
-  ConsoleApplication1.vcxproj -> C:\Users\Jackson\Downloads\B211200 소프트웨어공학 과제3\소프트웨어공학 과제_3 코드\x64\Debug\ConsoleApplication1.exe
-  ConsoleApplication1.vcxproj -> C:\Users\Jackson\Downloads\B211200 소프트웨어공학 과제3\소프트웨어공학 과제_3 코드\x64\Debug\ConsoleApplication1.pdb (Full PDB)
