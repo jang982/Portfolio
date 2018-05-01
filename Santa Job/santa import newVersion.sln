@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "santa import newVersion", "santa import newVersion.csproj", "{130ABB44-8AA1-A4AF-78ED-005B4DA4177C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "santa import newVersion.Editor", "santa import newVersion.Editor.csproj", "{BCC32B73-E243-BDD6-98D7-057F6D88FBBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{130ABB44-8AA1-A4AF-78ED-005B4DA4177C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{130ABB44-8AA1-A4AF-78ED-005B4DA4177C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{130ABB44-8AA1-A4AF-78ED-005B4DA4177C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{130ABB44-8AA1-A4AF-78ED-005B4DA4177C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC32B73-E243-BDD6-98D7-057F6D88FBBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC32B73-E243-BDD6-98D7-057F6D88FBBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC32B73-E243-BDD6-98D7-057F6D88FBBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC32B73-E243-BDD6-98D7-057F6D88FBBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
