@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLIDRAGON.Plugins", "SLIDRAGON.Plugins.csproj", "{CA78D899-3F58-6808-96E1-ECF89E0A6702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLIDRAGON", "SLIDRAGON.csproj", "{6813C254-E954-F1DB-F4F5-4AD3627ACA24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLIDRAGON.Editor.Plugins", "SLIDRAGON.Editor.Plugins.csproj", "{9BBF37C9-2EBB-A13F-A1F9-FF339AE4113A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA78D899-3F58-6808-96E1-ECF89E0A6702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA78D899-3F58-6808-96E1-ECF89E0A6702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA78D899-3F58-6808-96E1-ECF89E0A6702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA78D899-3F58-6808-96E1-ECF89E0A6702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6813C254-E954-F1DB-F4F5-4AD3627ACA24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6813C254-E954-F1DB-F4F5-4AD3627ACA24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6813C254-E954-F1DB-F4F5-4AD3627ACA24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6813C254-E954-F1DB-F4F5-4AD3627ACA24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BBF37C9-2EBB-A13F-A1F9-FF339AE4113A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BBF37C9-2EBB-A13F-A1F9-FF339AE4113A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BBF37C9-2EBB-A13F-A1F9-FF339AE4113A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BBF37C9-2EBB-A13F-A1F9-FF339AE4113A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
