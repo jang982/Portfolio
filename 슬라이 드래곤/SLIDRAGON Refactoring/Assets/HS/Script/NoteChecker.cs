@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class NoteChecker : MonoBehaviour {
-    Vector2 StartPos;
+    Vector2 startPos;
 
     NoteManager noteManager;
 
@@ -28,39 +28,39 @@ public class NoteChecker : MonoBehaviour {
         return Input.touchCount > 0 || Input.anyKeyDown;
     }
 
-    void ArrowCheckNormalMode(string InputArrow)
+    void ArrowCheckNormalMode(string inputArrow)
     {
         float ArrowLockTime = 1.0f;
 
-        if(IsNormalNote(InputArrow))
-            SlideRoutineInNormalNote(InputArrow, ArrowLockTime);
+        if(IsNormalNote(inputArrow))
+            SlideRoutineInNormalNote(inputArrow, ArrowLockTime);
 
-        else if(IsDoubleNote(InputArrow))
-            SlideRoutineInDoubleNote(InputArrow, ArrowLockTime);
+        else if(IsDoubleNote(inputArrow))
+            SlideRoutineInDoubleNote(inputArrow, ArrowLockTime);
 
-        else if(IsReverseNote(InputArrow))
-            SlideRoutineInReverseNote(InputArrow, ArrowLockTime);
+        else if(IsReverseNote(inputArrow))
+            SlideRoutineInReverseNote(inputArrow, ArrowLockTime);
 
     }
 
-    bool IsNormalNote(string InputArrow)
+    bool IsNormalNote(string inputArrow)
     {
-        return InputArrow == "UpArrow" || InputArrow == "LeftArrow" || InputArrow == "DownArrow" || InputArrow == "RightArrow";
+        return inputArrow == "UpArrow" || inputArrow == "LeftArrow" || inputArrow == "DownArrow" || inputArrow == "RightArrow";
     }
 
-    bool IsDoubleNote(string InputArrow)
+    bool IsDoubleNote(string inputArrow)
     {
-        return InputArrow == "DoubleUpArrow" || InputArrow == "DoubleLeftArrow" || InputArrow == "DoubleDownArrow" || InputArrow == "DoubleRightArrow";
+        return inputArrow == "DoubleUpArrow" || inputArrow == "DoubleLeftArrow" || inputArrow == "DoubleDownArrow" || inputArrow == "DoubleRightArrow";
     }
 
-    bool IsReverseNote(string InputArrow)
+    bool IsReverseNote(string inputArrow)
     {
-        return InputArrow == "ReverseUpArrow" || InputArrow == "ReverseLeftArrow" || InputArrow == "ReverseDownArrow" || InputArrow == "ReverseRightArrow";
+        return inputArrow == "ReverseUpArrow" || inputArrow == "ReverseLeftArrow" || inputArrow == "ReverseDownArrow" || inputArrow == "ReverseRightArrow";
     }
 
-    void ArrowCheckFeverMode(string InputArrow)
+    void ArrowCheckFeverMode(string inputArrow)
     {
-        SlideRoutineInFeverMode(InputArrow);
+        SlideRoutineInFeverMode(inputArrow);
     }
 
     void SlideRoutineInNormalNote(string arrow,float lockTime)
@@ -188,11 +188,11 @@ public class NoteChecker : MonoBehaviour {
             switch (NowTouch.phase)
             {
                 case TouchPhase.Began:
-                    StartPos = NowTouch.position;
+                    startPos = NowTouch.position;
                     break;
 
                 case TouchPhase.Ended:
-                    Vector2 deltaPos = NowTouch.position - StartPos;
+                    Vector2 deltaPos = NowTouch.position - startPos;
                     if (deltaPos.magnitude < 100.0f) return "";
                     bool IsMoveX = (Mathf.Abs(deltaPos.x) > Mathf.Abs(deltaPos.y));
                     if (IsMoveX)
