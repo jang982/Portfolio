@@ -26,7 +26,6 @@ public class ArrowMakeAndDestroy : MonoBehaviour {
 
     //오브젝트 할당용 배열
     GameObject[] arrowObjects;
-    int[] temp;
 
     void Awake()
     {
