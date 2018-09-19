@@ -81,17 +81,17 @@ public class ArrowMakeAndDestroy : MonoBehaviour {
 
     public void MakeArrowByDifficulty()
     {
-        int Normal = GameObject.Find("DifficultyManager").GetComponent<DifficultyManager>().getNormalFreq();
-        int Double = GameObject.Find("DifficultyManager").GetComponent<DifficultyManager>().getDoubleFreq();
-        int Reverse= GameObject.Find("DifficultyManager").GetComponent<DifficultyManager>().getReverseFreq();
+        int normalNote = GameObject.Find("DifficultyManager").GetComponent<DifficultyManager>().getNormalFreq();
+        int doubleNote = GameObject.Find("DifficultyManager").GetComponent<DifficultyManager>().getDoubleFreq();
+        int reverseNote= GameObject.Find("DifficultyManager").GetComponent<DifficultyManager>().getReverseFreq();
 
-        int RandomNumber = Random.Range(0, Normal + Double + Reverse);
+        int randomNumber = Random.Range(0, normalNote + doubleNote + reverseNote);
 
-        if (RandomNumber < Normal)                                           //노말노트 
+        if (randomNumber < normalNote)                                           //노말노트 
         {
             MakeCloneArrow(Random.Range(0, 4));
         }
-        else if (RandomNumber >= Normal && RandomNumber < Normal + Double)    //더블노트
+        else if (randomNumber >= normalNote && randomNumber < normalNote + doubleNote)    //더블노트
         {
             MakeCloneArrow(Random.Range(4, 8));
         }
